@@ -1,0 +1,7 @@
+li .list-group-item p{
+    line-height: 1.4;
+    font-size: 13px;
+}
+.list-group-item {
+    padding: 5px 0;
+}

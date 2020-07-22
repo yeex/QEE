@@ -4,17 +4,31 @@ import { FormsModule, ReactiveFormsModule } from '@angular/forms';
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { SignupComponent } from './signup/signup.component';
+import { CourselistComponent } from './courselist/courselist.component';
+import { HomeComponent } from './home/home.component';
+import { CourseComponent } from './course/course.component';
+import { StudentboardComponent } from './studentboard/studentboard.component';
+import { NavbarComponent } from './navbar/navbar.component';
+import { FooterPageComponent } from './footer-page/footer-page.component';
+import { TutorboardComponent } from './tutorboard/tutorboard.component';
 
 @NgModule({
   declarations: [
     AppComponent,
-    SignupComponent
+    SignupComponent,
+    CourselistComponent,
+    HomeComponent,
+    CourseComponent,
+    StudentboardComponent,
+    NavbarComponent,
+    FooterPageComponent,
+    TutorboardComponent
   ],
   imports: [
     BrowserModule,
     AppRoutingModule,
     FormsModule,
-    ReactiveFormsModule
+    ReactiveFormsModule,
   ],
   providers: [],
   bootstrap: [AppComponent]

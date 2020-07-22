@@ -11,11 +11,11 @@
                     <a class="nav-link active" id="home-tab" data-toggle="tab" href="#home" role="tab" aria-controls="home" aria-selected="true">Register</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" id="profile-tab" data-toggle="tab" href="#profile" role="tab" aria-controls="profile" aria-selected="false">Signin</a>
+                    <a class="nav-link" id="profile-tab" data-toggle="tab" href="#profile" role="tab" aria-controls="profile" aria-selected="false">Sign In</a>
                 </li>
             </ul>
             <div class="tab-content" id="myTabContent">
-                <div class="tab-pane fade" id="home" role="tabpanel" aria-labelledby="home-tab">
+                <div class="tab-pane fade active show" id="home" role="tabpanel" aria-labelledby="home-tab">
                     <h3 class="register-heading">Register</h3>
                     <form [formGroup]="form">
                         <div class="row register-form">
@@ -36,7 +36,7 @@
                                     <div class="maxl">
                                         <label class="radio inline"> 
                                             <input type="radio" name="gender" value="male" checked="">
-                                            <span> Male </span> 
+                                            <span> Male &nbsp; </span> 
                                         </label>
                                         <label class="radio inline"> 
                                             <input type="radio" name="gender" value="female">
@@ -68,7 +68,7 @@
                         </div>
                     </form>
                 </div>
-                <div class="tab-pane fade active show" id="profile" role="tabpanel" aria-labelledby="profile-tab">
+                <div class="tab-pane fade" id="profile" role="tabpanel" aria-labelledby="profile-tab">
                     <h3 class="register-heading">Signin</h3>
                     <div class="row register-form">
                         <div class="col-md-12">
@@ -78,7 +78,7 @@
                             <div class="form-group">
                                 <input type="password" class="form-control" placeholder="Password *" value="">
                             </div>
-                            <input type="submit" class="btnRegister" value="Login">
+                            <input routerLink="/studentboard" type="submit" class="btnRegister" value="Login">
                         </div>
                     </div>
                 </div>

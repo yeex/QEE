@@ -1,0 +1,30 @@
+<navbar></navbar>
+<div class="container mt-5">
+    <div class="row">
+        <div class="col-md-3">
+            <ul class="list-group border-0 shadow rounded-0">
+                <li class="list-group-item">Description</li>
+                <li class="list-group-item">Content</li>
+                <li class="list-group-item">Chapters</li>
+              </ul>
+        </div>
+        <div class="col-md-7 offset-md-1 mt-md-2 mt-4">
+            <div class="d-flex justify-content-between">
+                <h3 class="font-weight-bold text-muted p-0 m-0"># 342 - Algorithm</h3>
+                <button routerLink="/studentboard"  [disabled]="isLoading" class="btn btn-secondary" (click)="toggleLoading()">
+                    <img style="width: 14px" *ngIf="isLoading" src="../../assets/images/spinner.gif" />
+                    Enroll
+                </button>
+              </div>
+            <small class="font-weight-normal">John Doe</small>
+            <div class="content my-4">
+                <h5 class="font-weight-normal my-3">Description</h5>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                    Earum, dolore aperiam. Corporis nulla expedita enim quis cum 
+                    excepturi reiciendis vel similique quibusdam sit suscipit recusandae dolor, 
+                    nesciunt labore illum at.
+                </p>
+            </div>
+        </div>
+    </div>
+</div>

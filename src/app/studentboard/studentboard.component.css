@@ -1,0 +1,19 @@
+*:focus{
+    outline:none !important;
+    outline-width: 0 !important;
+    box-shadow: none;
+    /* -moz-box-shadow: none;
+    -webkit-box-shadow: none; */
+}
+
+.card {
+    border: 0; 
+}
+
+.card-body {
+    border: 0;
+}
+.card-header, h2{
+    background-color: #fff;
+    border-bottom: 1px solid #000 !important;
+}
