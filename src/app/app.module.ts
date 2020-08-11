@@ -11,6 +11,8 @@ import { StudentboardComponent } from './studentboard/studentboard.component';
 import { NavbarComponent } from './navbar/navbar.component';
 import { FooterPageComponent } from './footer-page/footer-page.component';
 import { TutorboardComponent } from './tutorboard/tutorboard.component';
+import { QuizComponent } from './quiz/quiz.component';
+import { ResultComponent } from './result/result.component';
 
 @NgModule({
   declarations: [
@@ -22,7 +24,9 @@ import { TutorboardComponent } from './tutorboard/tutorboard.component';
     StudentboardComponent,
     NavbarComponent,
     FooterPageComponent,
-    TutorboardComponent
+    TutorboardComponent,
+    QuizComponent,
+    ResultComponent
   ],
   imports: [
     BrowserModule,
